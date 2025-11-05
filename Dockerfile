@@ -1,4 +1,4 @@
-FROM gozargah/marzban:latest
+FROM gozargah/marzban:v0.6.0
 
 # Установка необходимых пакетов
 USER root
