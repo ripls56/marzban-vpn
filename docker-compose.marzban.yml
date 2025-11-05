@@ -38,6 +38,7 @@ services:
       python main.py
       "
     volumes:
+      - ../files/app/certs/:/app/certs
       - marzban_data:/var/lib/marzban
       - marzban_configs:/app/configs
       - marzban_logs:/var/log/xray
